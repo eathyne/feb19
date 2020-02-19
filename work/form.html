@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://wwww.thymeleaf.org">
+<head>
+    <style>
+        #user{
+            color: darkred;
+        }
+        #eathyn{ color: aqua}
+        #earl{
+            color: blue;
+        }
+#mynetta{
+    color: chartreuse;
+
+}
+        #earyn{
+            background-color: darkviolet;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action=" http://example.com/join.php">
+<p>Username: <input type="text" name="username" id="user"
+size="15" maxlength="30"/> </p>
+    <p>
+        Password:
+        <input type="password" name="password" id="eathyn" size="15" maxlength="30"
+    </p>
+    <input type="checkbox" name="major" value="IS" class="IS">IS
+    <input type="checkbox" name="major" value="ACCT" class="ACCT">ACCT
+    <input type="checkbox" name="major" value="Finance" class="Finance">Finance
+    <br>
+    <select name="major" id="earyn">
+        <option value="IS" selected="selected" >IS</option>
+        <option value="Accounting" >Accounting</option>
+        <option value="Finance">Finance</option>
+
+    </select>
+    <input type="file" name="user-song"/>
+    <input type="submit" value="upload"/>
+
+</form>
+<textarea name="comment" id="earl" cols="10" rows="4"> </textarea>
+</body>
+</html>
